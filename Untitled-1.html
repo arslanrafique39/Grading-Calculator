@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Grade and percentage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css"> 
+
+</head >
+<body background="./black_background_wood-wallpaper-1366x768.jpg">
+  <div class="container">  
+<h1 class="headi" >Grading Calculator </h1>
+<div class="mark" >
+
+<div class="bk1">
+<label >English</label>
+<input id="bookone" type="number" name="" placeholder="Marks" class="num" >
+</div>
+
+<br>
+
+<div class="bk2">   
+<label >Math    </label>
+<input id="book2" type="number" name="" placeholder="Marks" class="num">
+</div>
+
+<br>
+
+<div class="bk3">
+    <label>Chemistry</label>
+    <input id="book3" type="number" name="" placeholder="Marks" class="num">
+    </div>
+
+<br>
+
+ <div class="bk4">  
+     <label >Physics  </label>
+     <input id="book4" type="number" name="" placeholder="Marks" class="num">    
+ </div>
+
+ <br>
+
+ <div class="bk5">
+     <label >Urdu    </label>
+    <input id="book5" type="number" name="" placeholder="Marks" class="num" >  
+    </div>
+
+    <br>
+
+    <div class="bk6">
+        <label >Computer  </label>
+        <input id="book6" type="number" name="" placeholder="Marks" class="num" >
+        </div>
+
+<br>
+
+        <button class="but" onclick="calculate(); return false" class="buton">calculate</button>
+
+    </div>   
+    
+    <br>
+
+<div class="tab">
+
+<table>
+
+<tr>
+<td>Total Marks : </td>
+<td>600</td>
+</tr>
+
+<tr>
+    <td >Obtained Marks: </td>
+    <td id="ob"></td>
+    </tr>
+
+    <tr>
+        <td>Percentage : </td>
+        <td id="per"></td>
+        </tr>
+
+
+        <tr>
+            <td>Grade: </td>
+            <td id="gd"></td>
+            </tr>      
+
+            <tr>
+                <td>Remarks </td>
+                <td id="rem"></td>
+                </tr>
+
+</table>
+
+</div>
+
+</div>
+<script src="./calculate.js" ></script>
+
+
+
+    
+</body>
+</html>
